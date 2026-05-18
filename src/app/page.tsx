@@ -101,7 +101,7 @@ export default function LandingPage() {
         },
         {
           title: "Yazılım Çözümleri",          description: "Modern web ve uygulamalar.",          phoneOne: {
-            imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-businessman-with-crossed-arms_23-2147955274.jpg"},
+            imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-businessman-with-crossed-arms_23-2147955274.jpg?_wi=1"},
           phoneTwo: {
             imageSrc: "http://img.b2bpic.net/free-photo/digital-training-innovation-concept-with-futuristic-interface-screens_1134-352.jpg"},
         },
@@ -194,7 +194,7 @@ export default function LandingPage() {
       testimonials={[
         {
           id: "1",          name: "Ali Veli",          role: "CEO",          company: "Tech Corp",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-businessman-with-crossed-arms_23-2147955274.jpg"},
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-businessman-with-crossed-arms_23-2147955274.jpg?_wi=2"},
         {
           id: "2",          name: "Ayşe Yılmaz",          role: "Müdür",          company: "Real Estate",          rating: 5,
           imageSrc: "http://img.b2bpic.net/free-photo/closeup-handsome-middle-aged-business-leader_1262-4822.jpg"},

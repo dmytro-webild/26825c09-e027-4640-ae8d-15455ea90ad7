@@ -68,7 +68,7 @@ export default function LandingPage() {
       ]}
       slides={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-cool-illustration-with-geometric-shapes-bronze-laser-lights_181624-57639.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-cool-illustration-with-geometric-shapes-bronze-laser-lights_181624-57639.jpg?_wi=1",
           imageAlt: "Cinematic drone view",
         },
         {
@@ -122,7 +122,7 @@ export default function LandingPage() {
           phoneTwo: {
             imageSrc: "http://img.b2bpic.net/free-photo/3d-drone-flying-ocean-with-sunset-sky_1048-8182.jpg",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-cool-illustration-with-geometric-shapes-bronze-laser-lights_181624-57639.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-cool-illustration-with-geometric-shapes-bronze-laser-lights_181624-57639.jpg?_wi=2",
           imageAlt: "drone cinema shot",
         },
         {
@@ -141,12 +141,12 @@ export default function LandingPage() {
           title: "Yazılım Çözümleri",
           description: "Modern web ve uygulamalar.",
           phoneOne: {
-            imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-businessman-with-crossed-arms_23-2147955274.jpg",
+            imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-businessman-with-crossed-arms_23-2147955274.jpg?_wi=1",
           },
           phoneTwo: {
             imageSrc: "http://img.b2bpic.net/free-photo/digital-training-innovation-concept-with-futuristic-interface-screens_1134-352.jpg",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/closeup-handsome-middle-aged-business-leader_1262-4822.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/closeup-handsome-middle-aged-business-leader_1262-4822.jpg?_wi=1",
           imageAlt: "drone cinema shot",
         },
       ]}
@@ -314,7 +314,7 @@ export default function LandingPage() {
           role: "CEO",
           company: "Tech Corp",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-businessman-with-crossed-arms_23-2147955274.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-businessman-with-crossed-arms_23-2147955274.jpg?_wi=2",
         },
         {
           id: "2",
@@ -322,7 +322,7 @@ export default function LandingPage() {
           role: "Müdür",
           company: "Real Estate",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/closeup-handsome-middle-aged-business-leader_1262-4822.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/closeup-handsome-middle-aged-business-leader_1262-4822.jpg?_wi=2",
         },
         {
           id: "3",

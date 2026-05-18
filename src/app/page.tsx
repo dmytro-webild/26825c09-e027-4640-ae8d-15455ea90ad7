@@ -71,7 +71,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       features={[
-        { title: "Drone Çekimi", description: "Sinematik hava çekimleri.", phoneOne: { imageSrc: "http://img.b2bpic.net/free-photo/aerial-overhead-shot-urban-modern-business-architecture_181624-1563.jpg" }, phoneTwo: { imageSrc: "http://img.b2bpic.net/free-photo/3d-drone-flying-ocean-with-sunset-sky_1048-8182.jpg" } },
+        { title: "Drone Çekimi", description: "Sinematik hava çekimleri.", phoneOne: { imageSrc: "http://img.b2bpic.net/free-photo/aerial-overhead-shot-urban-modern-business-architecture_181624-1563.jpg" }, phoneTwo: { imageSrc: "http://img.b2bpic.net/free-photo/3d-drone-flying-ocean-with-sunset-sky_1048-8182.jpg?_wi=1" } },
         { title: "Reel Üretimi", description: "Trend odaklı içerikler.", phoneOne: { imageSrc: "http://img.b2bpic.net/free-photo/bird-s-eye-view-shanghai_1127-4006.jpg" }, phoneTwo: { imageSrc: "http://img.b2bpic.net/free-photo/hight-rise-condominium-office-buildings_1127-3044.jpg" } },
         { title: "Yazılım Çözümleri", description: "Modern web ve uygulamalar.", phoneOne: { imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-businessman-with-crossed-arms_23-2147955274.jpg?_wi=1" }, phoneTwo: { imageSrc: "http://img.b2bpic.net/free-photo/digital-training-innovation-concept-with-futuristic-interface-screens_1134-352.jpg" } },
       ]}
@@ -151,7 +151,7 @@ export default function LandingPage() {
       background={{ variant: "animated-grid" }}
       useInvertedBackground={true}
       mediaPosition="left"
-      imageSrc="http://img.b2bpic.net/free-photo/3d-drone-flying-ocean-with-sunset-sky_1048-8182.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/3d-drone-flying-ocean-with-sunset-sky_1048-8182.jpg?_wi=2"
     />
   </div>
 

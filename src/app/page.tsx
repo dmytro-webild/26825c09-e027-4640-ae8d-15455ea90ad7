@@ -2,9 +2,9 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactCTA from '@/components/sections/contact/ContactCTA';
-import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
+import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FeatureCardNine from '@/components/sections/feature/FeatureCardNine';
+import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
 import HeroCarouselLogo from '@/components/sections/hero/heroCarouselLogo/HeroCarouselLogo';
 import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
 import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
@@ -22,10 +22,10 @@ export default function LandingPage() {
         contentWidth="small"
         sizing="largeSmall"
         background="fluid"
-        cardStyle="glass-elevated"
-        primaryButtonStyle="primary-glow"
-        secondaryButtonStyle="glass"
-        headingFontWeight="semibold"
+        cardStyle="subtle-shadow"
+        primaryButtonStyle="flat"
+        secondaryButtonStyle="solid"
+        headingFontWeight="medium"
     >
       <ReactLenis root>
   <div id="nav" data-section="nav">
@@ -144,20 +144,19 @@ export default function LandingPage() {
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactCTA
+      <ContactSplit
       tag="İletişim"
       title="Harekete Geçin"
       description="GÖKNOVA ile projelerinizi hayata geçirelim."
-      background={{ variant: "sparkles-gradient" }}
-      useInvertedBackground={false}
-      buttons={[
-          { text: "İletişime Geçin", href: "#contact" }
-      ]}
+      background={{ variant: "animated-grid" }}
+      useInvertedBackground={true}
+      mediaPosition="left"
+      imageSrc="http://img.b2bpic.net/free-photo/3d-drone-flying-ocean-with-sunset-sky_1048-8182.jpg?_wi=2"
     />
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterBaseReveal
+      <FooterBaseCard
       logoText="GÖKNOVA"
       columns={[
         { title: "Sayfalar", items: [

@@ -7,6 +7,7 @@ import { ServiceWrapper } from "@/components/ServiceWrapper";
 import Tag from "@/tag/Tag";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Inter_Tight } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 
 
 
@@ -21,10 +22,14 @@ export const metadata: Metadata = {
   },
 };
 
-const interTight = Inter_Tight({
-  variable: "--font-inter-tight",
+
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
+const openSans = Open_Sans({
+  variable: "--font-open-sans",
+  subsets: ["latin"],
 });
 
 export default function RootLayout({
@@ -35,7 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${interTight.variable} antialiased`}>
+        <body className={`${inter.variable} ${openSans.variable} antialiased`}>
           <Tag />
           {children}
           <script
